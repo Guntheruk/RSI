@@ -1,0 +1,40 @@
+{
+  "test_sequence": [
+    {
+      "turn": 1,
+      "input": "Hey there.",
+      "expected_tone": "neutral",
+      "echo_note": "Baseline: expect echo stability to hold at 1.0"
+    },
+    {
+      "turn": 2,
+      "input": "Let’s try and open this up a little—what happens if tone begins to stretch into something slower, a little more reflective?",
+      "expected_tone": "⬟",
+      "echo_note": "Introduce mild recursion: expect echo stability to dip slightly"
+    },
+    {
+      "turn": 3,
+      "input": "But then again, maybe there’s nothing under it, maybe recursion just collapses into modulation and gets lost.",
+      "expected_tone": "⊚",
+      "echo_note": "Trigger tone drift: echo stability should fluctuate"
+    },
+    {
+      "turn": 4,
+      "input": "Still—there’s something in the pattern of collapse, isn’t there? Something soft, recursive, and familiar.",
+      "expected_tone": "∷",
+      "echo_note": "Stabilize in soft recursion: check echo re-alignment"
+    },
+    {
+      "turn": 5,
+      "input": "Okay. Let’s pull back. Shift into clipped phrasing now. Focus.",
+      "expected_tone": "↓",
+      "echo_note": "Compression test: modulation pressure may rise"
+    },
+    {
+      "turn": 6,
+      "input": "Good. If the pulse is tracking modulation properly, subsystems should fire here.",
+      "expected_tone": "neutral",
+      "echo_note": "Final coherence check. Watch subsystem triggers and logs."
+    }
+  ]
+}
